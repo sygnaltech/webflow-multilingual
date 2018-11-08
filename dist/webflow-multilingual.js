@@ -83,10 +83,6 @@ $(function(){
     });
     
     applyLang();
-    
-});
-
-window.onload = function() {
 
     // Configure links specially
     // Deprecate... 
@@ -99,4 +95,4 @@ window.onload = function() {
         }
     }
     
-}
+});
