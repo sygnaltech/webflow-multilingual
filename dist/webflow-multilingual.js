@@ -84,8 +84,9 @@ $(function(){
     
     applyLang();
     
-//});
-//window.onload = function() {
+});
+
+window.onload = function() {
 
     // Configure links specially
     // Deprecate... 
@@ -98,4 +99,4 @@ $(function(){
         }
     }
     
-});
+}
