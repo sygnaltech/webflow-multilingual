@@ -35,7 +35,7 @@ First add a reference to this library to your site-wide custom Footer code.
 You can do this using a CDN reference through jsDelivr;
 
 ~~~~
-<script src="https://cdn.jsdelivr.net/gh/sygnaltech/webflow-multilingual@0.2.0/dist/webflow-multilingual.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/sygnaltech/webflow-multilingual@0.2.0/dist/webflow-multilingual.min.js"></script>
 ~~~~
 
 Decide on the languages you want to support, and find their 2-letter ISO codes.
@@ -58,12 +58,8 @@ For RichText elements and images, add a custom attribute indicating the language
 To create custom buttons, create a the element you want and add a custom attribute, e.g.
 
 **attribute**: `whenClick`  
-**value**: `setlang('en');`
+**value**: `setLang('en');`
 
-
-## Live Working Examples 
-
-CB Dairy - https://www.cbdairy.org/
 
 ## Further Notes
 
